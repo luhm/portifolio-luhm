@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----USAR ABAIXO PARA ALGO GERAL------
+---QUANDO TEM A MESMA COR DE TEXTO OU DE FUNDO, FONTE, TAMANHO DE FONTE, POR EXEMPLO--- */
+
+body {
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.tudo {
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "about about tech formacoes"
+    "about about tech formacoes"  
+    "about about proj proj"
+    "about about serv serv"
+    "contatos contatos serv serv";
+    gap: 0.8rem;
+}
+
+/* -----DETALHES POR SEÇÃO----- */
+
+.about, .tecnologias, .contatos, .servicos, .formacoes, .projetos {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.about {
+    grid-area: about;
+    background-color: #8d6a9fff;
+}
+
+.tecnologias {
+    grid-area: tech;
+    background-color: aquamarine;
+}
+
+.contatos {
+    grid-area: contatos;
+    background-color: #f8e5eeff;
+}
+
+.formacoes {
+    grid-area: formacoes;
+    background-color: #577399ff;
+}
+
+.projetos {
+    grid-area: proj;
+    background-color: #e75a7cff;
+}
+
+.servicos {
+    grid-area: serv;
+    background-color: darkseagreen;
+}
+
+/* -----USAR ABAIXO QUANDO FOR PASSAR DE MOBILE PARA DESKTOP----- */
+
+@media (min-width: 700px) {
+    /* COLOCAR AQUI AS MUDANÇAS */
+}
