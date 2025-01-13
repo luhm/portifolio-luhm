@@ -18,49 +18,54 @@ body {
     margin: 10px;
     display: grid;
     grid-template-areas: 
-    "about about tech formacoes"
-    "about about tech formacoes"  
-    "about about proj proj"
-    "about about serv serv"
-    "contatos contatos serv serv";
-    gap: 0.8rem;
+    "about about skills skills skills formacoes"
+    "about about skills skills skills formacoes"  
+    "about about proj proj proj formacoes"
+    "about about proj proj proj serv"
+    "contatos tech proj proj proj serv";
+    gap: 0.8rem; /* to tentando mudar isso e deixar a parte de about, contatos e stacks mais fina, e projetos ocupar mais espaço. Vou tentar fazer isso criando um grid para esses tres, e depois usando o resultado nesse grid normal*/
 }
 
 /* -----DETALHES POR SEÇÃO----- */
 
-.about, .tecnologias, .contatos, .servicos, .formacoes, .projetos {
+.about, .tecnologias, .contatos, .servicos, .formacoes, .projetos, .habilidades {
     border-radius: 5px;
     padding: 10px;
 }
 
 .about {
     grid-area: about;
-    background-color: #8d6a9fff;
+    background-color: rgba(120, 0, 163, 0.75);
 }
 
 .tecnologias {
     grid-area: tech;
-    background-color: aquamarine;
+    background-color: rgba(90, 196, 164, 0.8)
+}
+
+.habilidades {
+    grid-area: skills;
+    background-color: burlywood;
 }
 
 .contatos {
     grid-area: contatos;
-    background-color: #f8e5eeff;
+    background-color: rgba(234, 99, 140, 0.8);
 }
 
 .formacoes {
     grid-area: formacoes;
-    background-color: #577399ff;
+    background-color: rgba(249, 200, 14, 0.75);
 }
 
 .projetos {
     grid-area: proj;
-    background-color: #e75a7cff;
+    background-color: rgba(63, 132, 229, 0.8);
 }
 
 .servicos {
     grid-area: serv;
-    background-color: darkseagreen;
+    background-color:  rgba(242, 67, 51, 0.8);
 }
 
 /* -----USAR ABAIXO QUANDO FOR PASSAR DE MOBILE PARA DESKTOP----- */
