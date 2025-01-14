@@ -5,6 +5,7 @@
 - usar formato de bentobox
   - https://bentogrids.com/
   - https://alphaefficiency.com/bento-box-design#branding
+  - https://www.figma.com/community/file/1369209806540918620/bento-grid-portfolio
 - divisões
   - projetos (com gifs/imagens)
   - formações/cursos (não usar cards que viram quando passa o mouse) !
