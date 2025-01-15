@@ -9,63 +9,82 @@
 
 body {
     color: black;
-    background-color: white;
+    background-image: url(../exemplos/Screen\ Shot\ 2025-01-15\ at\ 17.43.23.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
     font-size: 1.2rem;
 }
 
+
 .tudo {
-    margin: 10px;
+    margin: 20px;
     display: grid;
     grid-template-areas: 
-    "about about skills skills skills formacoes"
+    "about formacoes skills"
+    "about formacoes skills"
+    "about formacoes serv"
+    "about proj proj"
+    "about proj proj"
+    "contatos proj proj";
+    /* "about about skills skills skills formacoes"
     "about about skills skills skills formacoes"  
     "about about proj proj proj formacoes"
     "about about proj proj proj serv"
-    "contatos tech proj proj proj serv";
-    gap: 0.8rem; /* to tentando mudar isso e deixar a parte de about, contatos e stacks mais fina, e projetos ocupar mais espaço. Vou tentar fazer isso criando um grid para esses tres, e depois usando o resultado nesse grid normal*/
+    "contatos tech proj proj proj serv"; */
+    gap: 0.6rem; /* to tentando mudar isso e deixar a parte de about, contatos e stacks mais fina, e projetos ocupar mais espaço. Vou tentar fazer isso criando um grid para esses tres, e depois usando o resultado nesse grid normal*/
 }
 
 /* -----DETALHES POR SEÇÃO----- */
 
-.about, .tecnologias, .contatos, .servicos, .formacoes, .projetos, .habilidades {
+.about, .contatos, .servicos, .formacoes, .projetos, .habilidades {
     border-radius: 5px;
     padding: 10px;
+    filter: drop-shadow(0 0 0.2rem rgba(73, 72, 72, 0.971));
+    /* border: 3px solid black; se colocar essa borda fica uma estetica meio quadrinhos */
+    /* margin: 10px; */
 }
 
 .about {
     grid-area: about;
-    background-color: rgba(120, 0, 163, 0.75);
+    background-color:floralwhite;
+    /* background-color: rgba(120, 0, 163, 0.75); */
 }
 
-.tecnologias {
+/* .tecnologias {
     grid-area: tech;
-    background-color: rgba(90, 196, 164, 0.8)
-}
+    background-color:snow;
+    /* background-color: rgba(90, 196, 164, 0.8)
+} */
 
 .habilidades {
     grid-area: skills;
-    background-color: burlywood;
+    background-color: white;
+    /* background-color: burlywood; */
 }
 
 .contatos {
     grid-area: contatos;
-    background-color: rgba(234, 99, 140, 0.8);
+    background-color: white;
+    /* background-color: rgba(234, 99, 140, 0.8); */
 }
 
 .formacoes {
     grid-area: formacoes;
-    background-color: rgba(249, 200, 14, 0.75);
+    background-color: white;
+    /* background-color: rgba(249, 200, 14, 0.75); */
 }
 
 .projetos {
     grid-area: proj;
-    background-color: rgba(63, 132, 229, 0.8);
+    background-color: white;
+    /* background-color: rgba(63, 132, 229, 0.8); */
 }
 
 .servicos {
     grid-area: serv;
-    background-color:  rgba(242, 67, 51, 0.8);
+    background-color: white;
+    /* background-color:  rgba(242, 67, 51, 0.8); */
 }
 
 /* -----USAR ABAIXO QUANDO FOR PASSAR DE MOBILE PARA DESKTOP----- */

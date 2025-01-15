@@ -31,3 +31,7 @@
 
 ## Tecnologias e stacks
 
+## Serviços
+
+- site - vercel, netlify - email da empresa
+- landing page para evento/promoção
