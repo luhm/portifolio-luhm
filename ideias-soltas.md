@@ -15,6 +15,11 @@
   - minha história (detalhes com minha foto) !
   - contato !
 
+## Geral
+
+- eu queria que a parte sobre mim fosse a maior, porém talvez seja melhor a parte de call to action ser maior
+- fundo tá ok, fiz a imagem no canva, em alta resolução
+
 ## Tecnologias e stacks
 
 ## Serviços

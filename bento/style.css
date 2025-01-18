@@ -22,17 +22,20 @@ body {
     display: grid;
     grid-template-areas: 
     "about stacks skills"
-    "about formacoes skills"
-    "about formacoes serv"
+    "about serv skills"
+    "about serv formacoes"
     "about proj proj"
     "about proj proj"
     "contatos proj proj";
-    /* "about about skills skills skills formacoes"
-    "about about skills skills skills formacoes"  
-    "about about proj proj proj formacoes"
-    "about about proj proj proj serv"
-    "contatos tech proj proj proj serv"; */
-    gap: 0.8rem; /* to tentando mudar isso e deixar a parte de about, contatos e stacks mais fina, e projetos ocupar mais espaço. Vou tentar fazer isso criando um grid para esses tres, e depois usando o resultado nesse grid normal*/
+    
+    /*"about about stacks skills"
+    "about about serv skills"
+    "about about serv formacoes"
+    "about about proj proj"
+    "about about proj proj"
+    "contatos contatos proj proj";*/
+
+    gap: 0.8rem;
 }
 
 /* -----DETALHES POR SEÇÃO----- */
