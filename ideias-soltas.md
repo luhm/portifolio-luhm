@@ -14,6 +14,7 @@
 - divisões que não são links
   - minha história (detalhes com minha foto) !
   - contato !
+- fazer um em inglês e outro em português
 
 ## Geral
 
